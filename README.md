@@ -2,6 +2,37 @@
 
 *This project is an experimental hackathon project with no support or quality guarantee.*
 
+> Open this page at [https://microsofthackathons.github.io/sound-and-music-minecraft-makecode-ext/](https://microsofthackathons.github.io/sound-and-music-minecraft-makecode-ext/)
+
+## Use as Extension
+
+This repository can be added as an **extension** in MakeCode.
+
+* open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
+* click on **New Project**
+* click on **Extensions** under the gearwheel menu
+* search for **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext** and import
+
+## Edit this project ![Build status badge](https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext/workflows/MakeCode/badge.svg)
+
+To edit this repository in MakeCode.
+
+* open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
+* click on **Import** then click on **Import URL**
+* paste **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext** and click import
+
+## Blocks preview
+
+This image shows the blocks code from the last commit in main.
+This image may take a few minutes to refresh.
+
+![A rendered view of the blocks](https://github.com/dbjorge/sound-and-music-minecraft-makecode-ext/raw/main/.github/makecode/blocks.png)
+
+#### Metadata (used for search, rendering)
+
+* for PXT/minecraft
+<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
