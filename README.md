@@ -4,29 +4,33 @@
 
 > Open this page at [https://microsofthackathons.github.io/sound-and-music-minecraft-makecode-ext/](https://microsofthackathons.github.io/sound-and-music-minecraft-makecode-ext/)
 
-## Use as Extension
+## Use the extension in Minecraft
 
-This repository can be added as an **extension** in MakeCode.
+* open [Minecraft: Education Edition](https://education.minecraft.net/) and log in
+* create or join a world ("Code Builder" must be enabled under the "Classroom" world settings)
+* open the code builder (by default, the "c" key)
+* click on **New Project**
+* click on **Extensions** in the left menu
+* search for **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext#main** and import
+
+The left menu should now contain new **Sound** and **Music** buttons!
+
+## Test the extension in a browser
+
+This repository can be added as an **extension** in the MakeCode online editor (outside of Minecraft). *None of the functionality will work outside of Minecraft*, but this is a quick way to test out what the MakeCode blocks will look like without loading up the game.
 
 * open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
-* search for **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext** and import
+* search for **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext#main** and import
 
 ## Edit this project ![Build status badge](https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext/workflows/MakeCode/badge.svg)
 
-To edit this repository in MakeCode.
+To edit this repository in MakeCode:
 
 * open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in main.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext/raw/main/.github/makecode/blocks.png)
+* paste **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext#main** and click import
 
 ## Contributing
 

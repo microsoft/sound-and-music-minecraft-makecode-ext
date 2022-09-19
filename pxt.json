@@ -1,6 +1,6 @@
 {
-    "name": "sound-and-music",
-    "description": "",
+    "name": "Sound and Music",
+    "description": "Sound and Music",
     "dependencies": {
         "core": "*",
         "builder": "*"
