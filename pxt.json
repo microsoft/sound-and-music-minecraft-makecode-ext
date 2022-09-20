@@ -11,10 +11,6 @@
         "src/sound.ts",
         "README.md"
     ],
-    "testFiles": [
-        "src/music.test.ts",
-        "src/sound.test.ts"
-    ],
     "targetVersions": {
         "target": "1.6.27",
         "targetId": "minecraft"
