@@ -19,5 +19,5 @@
     "supportedTargets": [
         "minecraft"
     ],
-    "preferredEditor": "tsproj"
+    "preferredEditor": "tsprj"
 }
