@@ -9,6 +9,7 @@
         "src/main.blocks",
         "src/music.ts",
         "src/sound.ts",
+        "src/volume.ts",
         "README.md"
     ],
     "targetVersions": {
