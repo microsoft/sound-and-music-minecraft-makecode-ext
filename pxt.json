@@ -6,8 +6,10 @@
         "builder": "*"
     },
     "files": [
+        "src/instrument.ts",
         "src/main.blocks",
         "src/music.ts",
+        "src/note.ts",
         "src/sound.ts",
         "src/volume.ts",
         "README.md"
