@@ -13,7 +13,7 @@
 * click on **Extensions** in the left menu
 * search for **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext#main** and import
 
-The left menu should now contain new **Sound** and **Music** buttons!
+The left menu should now contain a new **Music** category!
 
 ## Test the extension in a browser
 
