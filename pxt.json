@@ -14,7 +14,6 @@
         "src/volume.ts",
         "README.md"
     ],
-    "icon": "icon.png",
     "testFiles": [
         "src/test.ts"
     ],
@@ -25,5 +24,6 @@
     "supportedTargets": [
         "minecraft"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "icon": "icon.png"
 }

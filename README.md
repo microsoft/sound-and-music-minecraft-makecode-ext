@@ -15,6 +15,131 @@
 
 The left menu should now contain a new **Music** category!
 
+## Block documentation
+
+### `playSound(sound)`
+
+Plays the specified Minecraft game sound.
+
+Examples:
+
+```ts
+playSound(Sound.CatMeow);
+playSound(Sound.Firework);
+```
+
+Available `Sound`s include:
+
+* Blaze
+* BucketSplash
+* CatHiss
+* CatMeow
+* CatPurr
+* CatPurreow
+* Chicken
+* Click
+* Cow
+* Creeper
+* Dolphin
+* Drink
+* Drowned
+* Eat
+* ElderGuardian
+* Endermen
+* Explode
+* FallDamage
+* Fire
+* Firework
+* FireworkLarge
+* FireworkTwinkle
+* Fizz
+* Fuse
+* Ghast
+* Horse
+* Hurt
+* LevelUp
+* LightningImpact
+* Llama
+* Pig
+* PlayerAttack
+* PlayerDie
+* PlayerHurt
+* Rain
+* Sheep
+* Skeleton
+* Slime
+* Spider
+* Splash
+* Thunder
+* Totem
+* Trident
+* VillagerHaggle
+* VillagerNo
+* VillagerYes
+* WolfBark
+* WolfGrowl
+* WolfWhine
+* Zombie
+
+### `playNote(note, instrument)`
+
+Plays the specified note on the specified Minecraft instrument, as if it was played on a note block.
+
+Minecraft can play notes from Low F# (`Note.FSharp3`) to High F# (`Note.FSharp5`).
+
+Examples:
+
+```ts
+playNote(Note.E4, Instrument.Harp);
+playNote(Note.FSharp4, Instrument.Banjo);
+```
+
+Available `Instrument`s include:
+
+* Harp
+* Bass
+* SnareDrum
+* HiHat
+* BassDrum
+* Bell
+* Flute
+* Chime
+* Guitar
+* Xylophone
+* Vibraphone
+* CowBell
+* Didgeridoo
+* Bit
+* Banjo
+* Pling
+
+### `setVolume(newVolume)`
+
+Changes the volume that `playSound` and `playNote` will play at.
+
+Volumes can range from 0 to 100 and starts at 100.
+
+This is *separate* from all Minecraft audio settings. It only affects the other blocks provided by this extension.
+
+Examples:
+
+```ts
+setVolume(0); // mute
+setVolume(100); // max volume
+```
+
+### `volume()`
+
+Returns the volume previously set by `setVolume`.
+
+Examples:
+
+```ts
+volume(); // returns 100 by default
+setVolume(50);
+volume(); // now returns 50
+```
+
 ## Test the extension in a browser
 
 This repository can be added as an **extension** in the MakeCode online editor (outside of Minecraft). *None of the functionality will work outside of Minecraft*, but this is a quick way to test out what the MakeCode blocks will look like without loading up the game.
@@ -24,7 +149,7 @@ This repository can be added as an **extension** in the MakeCode online editor (
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext#main** and import
 
-## Edit this project ![Build status badge](https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext/workflows/MakeCode/badge.svg)
+## Edit this project
 
 To edit this repository in MakeCode:
 
