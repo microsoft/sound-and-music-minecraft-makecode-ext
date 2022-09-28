@@ -17,6 +17,48 @@ The left menu should now contain a new **Music** category!
 
 ## Block documentation
 
+### `playMusic(builtInMusicDisc, musicOption)`
+
+Play a Minecraft music disc.
+
+Examples:
+
+```ts
+playMusic(MusicDisc.Eleven, MusicOption.Once);
+playMusic(MusicDisc.Otherside, MusicOption.Forever);
+```
+
+Available `MusicDisc`s include:
+
+* Eleven
+* Thirteen
+* Blocks
+* Cat
+* Chirp
+* Far
+* Mall
+* Mellohi
+* Stal
+* Strad
+* Wait
+* Ward
+* Otherside
+* Pigstep
+
+Available `MusicOption`s include:
+
+* Once
+* Forever
+
+### `stopMusic()`
+
+Stop the music.
+
+Example:
+```ts
+stopMusic();
+```
+
 ### `playSound(sound)`
 
 Plays the specified Minecraft game sound.
