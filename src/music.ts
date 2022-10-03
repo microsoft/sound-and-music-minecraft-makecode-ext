@@ -44,6 +44,7 @@ namespace music {
      * @param builtInMusicDisc a built-in Minecraft music disc you wish to play
      * @param musicOption the play option for the music disc
      */
+    //% group="Music Discs" weight=60
     //% block="play music $builtInMusicDisc repeating $musicOption"
     export function playMusic(builtInMusicDisc: MusicDisc, musicOption: MusicOption = MusicOption.Once): void {
         let command = "";
@@ -66,6 +67,7 @@ namespace music {
     /**
      * Stop the music.
      */
+    //% group="Music Discs" weight=40
     //% block="stop music"
     export function stopMusic(): void {
         player.execute("music stop");
