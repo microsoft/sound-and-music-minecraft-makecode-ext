@@ -1,7 +1,5 @@
 # Sound and Music MakeCode extension for Minecraft: Education Edition
 
-*This project is an experimental hackathon project with no support or quality guarantee.*
-
 > Open this page at [https://microsofthackathons.github.io/sound-and-music-minecraft-makecode-ext/](https://microsofthackathons.github.io/sound-and-music-minecraft-makecode-ext/)
 
 ## Use the extension in Minecraft
