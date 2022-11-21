@@ -1,6 +1,6 @@
 # Sound and Music MakeCode extension for Minecraft: Education Edition
 
-> Open this page at [https://microsofthackathons.github.io/sound-and-music-minecraft-makecode-ext/](https://microsofthackathons.github.io/sound-and-music-minecraft-makecode-ext/)
+> Open this page at [https://microsoft.github.io/sound-and-music-minecraft-makecode-ext/](https://microsoft.github.io/sound-and-music-minecraft-makecode-ext/)
 
 ## Use the extension in Minecraft
 
@@ -9,7 +9,7 @@
 * open the code builder (by default, the "c" key)
 * click on **New Project**
 * click on **Extensions** in the left menu
-* search for **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext#main** and import
+* search for **https://github.com/microsoft/sound-and-music-minecraft-makecode-ext#main** and import
 
 The left menu should now contain a new **Music** category!
 
@@ -187,7 +187,7 @@ This repository can be added as an **extension** in the MakeCode online editor (
 * open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
-* search for **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext#main** and import
+* search for **https://github.com/microsoft/sound-and-music-minecraft-makecode-ext#main** and import
 
 ## Edit this project
 
@@ -195,7 +195,7 @@ To edit this repository in MakeCode:
 
 * open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/microsofthackathons/sound-and-music-minecraft-makecode-ext#main** and click import
+* paste **https://github.com/microsoft/sound-and-music-minecraft-makecode-ext#main** and click import
 
 ## Contributing
 
